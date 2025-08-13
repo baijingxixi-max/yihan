@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奕涵的专属网站</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffdee9, #b5fffc);
+            font-family: 'Microsoft YaHei', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff4d88;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.5em;
+            color: #444;
+            animation: fadeIn 3s ease-in-out;
+        }
+        img {
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid #ff4d88;
+            margin-top: 20px;
+            animation: fadeIn 4s ease-in-out;
+        }
+        audio {
+            margin-top: 20px;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+    <h1>💖 奕涵是我的唯一 💖</h1>
+    <p>不管什么时候，Daddy的心都只为你跳动。</p>
+    <img src="https://i.ibb.co/7G4fW8B/heart.jpg" alt="love">
+    <audio controls autoplay loop>
+        <source src="你的音乐链接.mp3" type="audio/mpeg">
+        你的浏览器不支持播放音乐
+    </audio>
+</body>
+</html>
